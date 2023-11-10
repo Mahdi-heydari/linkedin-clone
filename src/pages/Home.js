@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Header from "../UI/Header";
 import Leftside from "../UI/Leftside";
 import Rightside from "../UI/Rightside";
+import Main from "../UI/Main";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </Section>
         <Layout>
           <Leftside />
-          {/* main Component */}
+          <Main/>
           <Rightside/>
         </Layout>
       </Container>
